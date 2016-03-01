@@ -12,13 +12,36 @@ text-align: center;
 .text{
 
 text-align: left;
-font-size: 20px;
+font-size: 16px;
 display:inline-block;
 
 
 }
 .text_container{
   text-align: center;
-  width: 330px;
+  width: 400px;
 
+
+
+
+
+
+}
+
+
+.block1 {
+  width: 500px;
+  background: white;
+  padding: 5px;
+  float: суinherit;
+  width: 80%;
+  max-width: 500px;
+  margin: 1em auto;
+  padding: 1em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+
+ }
+
+body {
+   background: #efefef;
 }
