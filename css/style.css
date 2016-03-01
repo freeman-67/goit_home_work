@@ -1,0 +1,24 @@
+
+
+.name{
+text-align: center;
+}
+
+.image{
+  width: 200px;
+
+}
+
+.text{
+
+text-align: left;
+font-size: 20px;
+display:inline-block;
+
+
+}
+.text_container{
+  text-align: center;
+  width: 330px;
+
+}
