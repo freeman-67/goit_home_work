@@ -6,16 +6,16 @@ body {
   background-color: #f9f9f9;
 }
 .logo {
-  padding-left: 45px;
-  padding-top: 50px;
-  padding-bottom: 40px;
+  padding: 50px 0 40px 45px;
+
 }
 .container {
   width: 1060px;
-  height: 1600px;
+  height: auto;
   background-color: white;
   margin: auto;
   box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+  padding-bottom: 40px;
 }
 .topmenu {
   list-style-type: none;
@@ -23,64 +23,37 @@ body {
   height: 40px;
   background-color: #fff;
   background-image: linear-gradient(to top, #444343 0%, #5e5e5e 100%);
-margin-left: 45px;
+  margin-left: 45px;
 }
 .bike {
-  margin-left: 333px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+margin: 40px 0 40px 333px;
 }
-.li {    height: 30px;
+.li {
+  height: 30px;
 }
-
 .topmenu li {
-width: 30px;
+  width: 30px;
   height: 30px;
   display: inline-block;
-  padding-right: 90px;
-  padding-top: 10px;
-  padding-left: 25px;
-
+  padding: 10px 90px 0 25px;
   font-family: 'Open Sans';
   font-style: normal;
   font-size: 15px;
   color: white;
   text-shadow: 0.5px 0.9px 1px rgba(0, 0, 0, 0.5);
-
-
 }
-
-
-
-.topmenu  li:active {
- background-color: #fff;
- border-right: 1px solid #838383;
- border-left: 1px solid #838383;
- background-image: linear-gradient(to top, #2e2e2e 0%, #4a4a4a 100%);
-
-
-}
-
-
-
-
-
- .topmenu  li:hover {
+.topmenu li:active {
   background-color: #fff;
   border-right: 1px solid #838383;
   border-left: 1px solid #838383;
   background-image: linear-gradient(to top, #2e2e2e 0%, #4a4a4a 100%);
-
-
 }
-
-
-
-
-
-
-
-
+.topmenu li:hover {
+  background-color: #fff;
+  border-right: 1px solid #838383;
+  border-left: 1px solid #838383;
+  background-image: linear-gradient(to top, #2e2e2e 0%, #4a4a4a 100%);
+}
 TABLE {
   background: #c8c8c8;
   color: black;
@@ -105,20 +78,17 @@ TD {
 }
 .text {
   width: 660px;
-  margin-left: 360px;
-  margin-bottom: 65px;
+margin: 0 0 65px 360px;
   font-family: 'Open Sans';
   font-style: normal;
   font-size: 13px;
 }
 .footer li {
   display: inline-block;
-  margin-right: 91px;
   font-family: 'Open Sans';
   font-style: normal;
   font-size: 13px;
-  margin-top: 10px;
-  margin-left: 25px;
+  margin: 10px 91px 0 25px;
 }
 .footer {
   display: block;
@@ -135,4 +105,15 @@ TD {
   background-color: #f9f9f9;
   padding-left: 35px;
   width: 220px;
+}
+.topmenu  {
+  cursor: pointer;
+}
+.rightmenu {
+  cursor: pointer;
+}
+
+
+.footer {
+  cursor: pointer;
 }
