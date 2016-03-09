@@ -70,6 +70,8 @@ font-size: 14px;
 border-bottom: 1px solid black;
 
 padding-left: 30px;
+position: relative;
+z-index: 5;
 
 
 
