@@ -4,6 +4,8 @@
 }
 body{
   background-image: url(../IMG/bg.png);
+  background-repeat: repeat-x;
+
 }
 
 .container{
@@ -12,8 +14,7 @@ body{
   height: 991px;
   margin: auto;
   display: block;
-margin-top: 40px;
-box-shadow: 0 6px 10px rgba(0, 0, 0, .5);
+box-shadow: 0 10px 15px rgba(0, 0, 0, .5);
 margin-bottom: 40px;
 }
 
@@ -77,8 +78,9 @@ z-index: 5;
 
 }
 
+
 .menuontop li{
-padding-right: 20px;
+padding-right: 17px;
 }
 
 
@@ -100,22 +102,21 @@ ul.menuontop > li {
 }
 ul.menuontop > li > a {
     display: block;
-    margin-left: 30px;
+    margin-left: 15px;
     color: white;
     text-decoration: none;
     padding-top: 5px;
-  height: 25px;
+  /*height: 25px;*/
 }
-ul.menuontop > li > a:hover {
-    background-color: black;
-}
+
 ul.submenu {
     display: none;
     position: absolute;
-    width: 120px;
+    width: 12
+    0px;
     top: 30px;
     left: 0;
-    background-color: white;
+    background-color: none;
 }
 ul.submenu > li {
     display: block;
@@ -152,6 +153,7 @@ font-family: Tahoma;
 font-size: 14px;
   float: left;
   z-index: 1;
+  padding-top: 10px;
 }
 h3{
   text-align: center;
@@ -183,6 +185,8 @@ h3{
    float: right;
    font-family: Tahoma;
    font-size: 14px;
+   padding-top: 10px;
+
 
 
 
@@ -206,6 +210,6 @@ h3{
 font-family: Tahoma;
 font-size: 12px;
 color: white;
-margin-top: 5px;
+margin-top: 10px;
 
 }
