@@ -19,14 +19,17 @@
 }
 
 
-
+.container{
+display: block;
+margin: auto;
+}
 
 
 
 .header{
   height: 36px;
   background-image: url(../img/headermenu.png);
-  width: 1215px;
+
 }
 
 
@@ -46,10 +49,19 @@ padding: 10px 5px 10px 5px;
 }
 
 
+
+}
 .menu1{
-  margin-left: 410px;
-  float: left;
+padding-left: 500px;
+
   height: 36px;
+
+
+
+}
+
+.menu2{
+
 
 }
 .menu1  li a{
@@ -117,10 +129,8 @@ margin-left: -15px;
 
 .content {
 background-image: url(../img/bg.png);
-width: 1215px;
 height: 1028px;
-position: relative;
-clear: both;
+background-size: cover;
 
 }
 
