@@ -1,234 +1,186 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-
-
 @font-face {
-    font-family: 'Helvetica Neue';
-    src: url('../fonts/helveticaneue-thin-webfont.eot');
-    src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
-         url('../fonts/helveticaneue-thin-webfont.woff') format('woff'),
-         url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype'),
-         url('../fonts/helveticaneue-thin-webfont.svg#helvetica_neueregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: 'Helvetica Neue';
+  src: url('../fonts/helveticaneue-thin-webfont.eot');
+  src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'), url('../fonts/helveticaneue-thin-webfont.woff') format('woff'), url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
-
-
-.container{
-display: block;
-margin: auto;
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('../fonts/helveticaneue-thin-webfont.eot');
+  src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'), url('../fonts/helveticaneue-thin-webfont.woff') format('woff'), url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
-
-
-
-.header{
-  height: 36px;
-  background-image: url(../img/headermenu.png);
-
+clearfix:after {
+  content: '';
+  clear: both;
+  position: relative;
 }
-
-
-li{
-
-display: inline-block;
-padding-right: 25px;
-padding-top: 8px;
-float: left;
-
-
+.bold {
+  font-weight: bold;
 }
-
-
-.menu1 li a{
-padding: 10px 5px 10px 5px;
+.udrl {
+  text-decoration: underline;
 }
-
-
-
+body {
+  font-family: "Helvetica Neue", Tahoma;
 }
-.menu1{
-padding-left: 500px;
-
-  height: 36px;
-
-
-
+.nav {
+  background: url('../img/nav.png');
+  height: 35px;
+  width: 100%;
 }
-
-.menu2{
-
-
-}
-.menu1  li a{
-  text-decoration: none;
-  color: #60b5ee;
-  font-family: Helvetica Neue;
-  font-size: 14px;
-
-}
-
-
-
-.menu1 li :hover{
-   background-color: #4eabda;
-   color: white;
-
-
-
-
-}
-
-
-
-
-
-
-
-.menu2 li :hover{
-  background-image: linear-gradient(to top, #2e7ac4 0%, #4daada 100%);
-
-
-
-
-}
-
-.menu2 li a{
-padding: 10px 5px 10px 5px;
-}
-
-
-
-.line{
-  float:left;
-}
-
-.flag{
-  padding-left: 20px;
-}
-
-
-
-.menu22{
-margin-left: -15px;
-}
-
-.menu2 li a{
-  text-decoration: none;
-  color: white;
-  font-family: Helvetica Neue;
-  font-size: 14px;
-}
-.menu33{
-  margin-left: 15px;
-}
-
-.content {
-background-image: url(../img/bg.png);
-height: 1028px;
-background-size: cover;
-
-}
-
-.form {
-
-  background-color:rgba(0, 0, 0, 0.5);;
-  width: 560px;
-  height: 613px;
-margin: auto;
-position: absolute;
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
-text-align: center;
-
-}
-.zagolovok span{
-  font-family: Helvetica Neue;
-font-size: 24px;
-color: white;
-display: block;
-margin: 20px;
-
-
-}
-
-.or{
-margin-left: 140px;
-width: 50%;
-
-}
-
-
-.or span{
-  font-family: Helvetica Neue;
-  font-size: 14px;
-  color: grey;
-}
-.facebook {
-margin: 30px 0 5px 0;
-}
-.checkbox{
+.menu {
+  float: right;
   display: block;
-
+}
+.menu li {
+  float: left;
+}
+.menu li a {
+  float: left;
+  padding: 10px;
+  color: #60b5ed;
+  font-size: 14px;
+  text-decoration: none;
+}
+.menu li a:hover {
+  font-weight: bold;
+  background-color: #4eabda;
+  color: white;
+}
+.container {
+  float: right;
+  display: block;
+  z-index: 1;
+}
+.container li {
+  float: left;
+}
+.container li a {
+  float: left;
+  padding: 10px;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+#flag {
+  border-left: 1px solid #56a2dc;
+  height: 35px;
+}
+#flag a{
+  padding: 3px 0 3px 15px;
+}
+.grad {
+  background: linear-gradient(to bottom, #51b1dc, #2e7ac4);
+}
+.wrapper {
+  display: block;
+  background: url('../img/pic.jpg') no-repeat top center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+.form {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 550px;
+  background-color: rgba(16, 16, 16, 0.75);
+}
+.header {
+  padding: 20px;
+  border-bottom: 2px solid #c4c6b8;
+  font-size: 24px;
+  color: white;
 }
 .button {
-       display: block; /* отображаем блоком */
-       width: 149px; /* длинна кнопки */
-       height: 20px; ddddpx; /* высота кнопки */
-color: white;
-       font-size: 14px;
-      background-image: url(../img/button.png);
-       text-align: center; /* выравнивание по центру */
-       text-decoration: none; /* убрали подчеркивание */
-       border-radius: 5px; /* круглые края */
-       padding-top: 9px; /* выровняли текст по вертикали */
-       padding-bottom: 5px;
-       font-family: Helvetica Neue; /* задали шрифт */
-       margin-left: 200px;
+  margin-top: 35px;
+  margin-bottom: 20px;
 }
-
-
-#field{
-  width: 276px;
-  height: 35px;
-  background-color: black;
-  border: none;
-  border-bottom: 1px solid grey;
-margin-top: 15px;
-padding-left: 20px;
-font-size: 14px;
-font-family: Helvetica Neue;
+button {
+  width: 285px;
+  border-radius: 5px;
+  margin: 10px;
+  background: linear-gradient(to bottom, #7789b7, #2e4476);
+  border-color: #7586b1;
 }
-
-
-.colortext{
+button li {
+  float: left;
+  padding: 5px 7px;
+  font-size: 14px;
   color: white;
 }
-
-
-.checkbox{
+button li:first-child {
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
   color: white;
-  margin: 20px;
-  font-family: Helvetica Neue;
+}
+button li:last-child {
+  border-left: 1px solid #7586b1;
+  padding: 10px 33px;
+}
+.line {
+  color: #999999;
   font-size: 14px;
 }
-
-
-.lower{
-  color: white;
-width: 360px;
-font-family: Tahoma;
-font-size: 12px;
-padding: 20px 0 0 80px;
+.line:after {
+  display: inline-block;
+  margin-bottom: 4px;
+  content: " ";
+  width: 122px;
+  border-top: 1px solid #666666;
+  border-bottom: 1px solid #000000;
 }
-
-.or span {
-  font-family: Helvetica Neue;
+.line:before {
+  display: inline-block;
+  margin-bottom: 4px;
+  content: " ";
+  width: 122px;
+  border-top: 1px solid #666666;
+  border-bottom: 1px solid #000000;
+}
+.content {
+  margin-top: 25px;
+}
+.content input {
+  padding: 5px 10px;
+  width: 255px;
+  height: 25px;
+  margin: 10px;
+  background: #0f0e0e;
+  color: #cccccc;
+  font-size: 14px;
+  border: 1px solid #000000;
+  border-bottom-color: #4a4a49;
+}
+.content input:focus {
+  background: #1b5288;
+  box-shadow: 2px -2px 20px #1b5288, -2px 2px 20px #1b5288;
+}
+.checkbox {
+  margin: 10px;
+  font-size: 14px;
+  color: #cccccc;
+}
+.submit {
+  margin: 25px;
+}
+.submit input {
+  padding: 10px;
+  border-radius: 3px;
+  border-color: #6bb8e7;
+  background: linear-gradient(to bottom, #6bb8e7, #3686ca);
+  font-size: 14px;
+  color: #cccccc;
+  font-weight: bold;
+}
+.form p {
   font-size: 11px;
+  color: #cccccc;
+  padding-bottom: 20px;
 }
